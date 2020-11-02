@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charste="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div class="container">
+            
+            
+                    <nav class="navbar">
+                        <div class="nav_icon" onclick="toggleSidebar()">
+                            <i class="fa fa-bars"></i> 
+                        </div>
+                        <div class="navbar__left">
+                            <a href="#">View Full Invoice</a>
+                            <a href="#">Book a Destination</a>
+                            <a class="active_link" href="#">Admin</a>
+                        </div>
+                        <div class="navbar__right">
+                            <a href="#">
+                                <i class="fa fa-search"></i> 
+                            </a>
+        
+                            <a href="#">
+                                <i class="fa fa-clock-o"></i> 
+                            </a>
+        
+                            <a href="#">
+                                <img width="30" src="images/noun_User_3542786.png" alt=""/>
+                            </a>
+                        </div>
+                    </nav>
+        
+                    <main>
+                        <div class="main__container">
+                            <div class="main__title">
+                                
+                                <div class="main__greeting">
+                                    <h1>User Dashboard</h1>
+                                    <h4>In Pursuit Of Customer Satisfaction</h4>
+                                </div>
+                            </div>
+        
+                            <div class="main__cards">
+                               
+                                <div class="cards">
+                                    <i class="fa fa-user-o fa-2x text-lightblue"></i>
+                                    <div class="card__inner">
+                                        <p class="text-primary-p">Number of guests</p>
+                                        <span class="fot-bold text-title">2</span>
+                                    </div>
+                                </div>
+        
+                                <div class="cards">
+                                    <i class="fa fa-calendar fa-2x text-red"></i>
+                                    <div class="card__inner">
+                                        <p class="text-primary-p">Arrival Date</p>
+                                        <span class="fot-bold text-title">2467</span>
+                                    </div>
+                                </div>
+        
+                                <div class="cards">
+                                    <i class="fa fa-video-camera fa-2x text-yellow"></i>
+                                    <div class="card__inner">
+                                        <p class="text-primary-p">Departure Date</p>
+                                        <span class="fot-bold text-title">340</span>
+                                    </div>
+                                </div>
+        
+                                <div class="cards">
+                                    <i class="fa fa-thumbs-up fa-2x text-green"></i>
+                                    <div class="card__inner">
+                                        <p class="text-primary-p">Hotel</p>
+                                        <span class="fot-bold text-title">Lacasa Depapel</span>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="charts">
+                                <!-- <div class="charts__left">
+                                    <div class="charts__left_title">
+                                        <div>
+                                            <h2>User Details</h2>
+                                            <p>Welcome User</p>
+        
+                                        </div>
+                                        <i class="fa fa-usd"></i>
+                                    </div>
+                                    <div class="apex1"></div>
+                                </div> -->
+                                <div class="charts__right">
+                                    <div class="charts__right_title">
+                                        <div>
+                                            <h1>Daily Reports</h1>
+                                            <p>Cupertino, Californi,USA</p>
+                                        </div>
+                                        <i class="fa fa-usd"></i>
+                                    </div>
+                                    <div class="charts__right__cards">
+                                        <div class="card1">
+                                            <h1>PROFILE</h1>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Email</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Larry</td>
+                                                    <td>the Bird</td>
+                                                    <td>@twitter</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+        
+                                        <div class="card2">
+                                            <h1>BOOKING DETAILS</h1>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Booking date</th>
+                                                    <th scope="col">Departure date</th>
+                                                    <th scope="col">User</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>13/4/20</td>
+                                                    <td>14/2/20</td>
+                                                    <td>@mdo</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>13/4/20</td>
+                                                    <td>14/2/20</td>
+                                                    <td>@fat</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>13/4/20</td>
+                                                    <td>14/2/20</td>
+                                                    <td>@twitter</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+        
+                                        <div class="card3">
+                                            <h1>PASSWORD</h1>
+                                           
+                                        </div>
+                                        <div class="card4">
+                                            <h1>INVOICE</h1>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Deficit</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Paid</td>
+                                                    <td>2000</td>
+                                                    <td>0</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Not Paid</td>
+                                                    <td>4000</td>
+                                                    <td>4000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Partially Paid</td>
+                                                    <td>4000</td>
+                                                    <td>350</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+        
+                    <div id="sidebar">
+                        <div class="sidebar__title">
+                            <div class="sidebar__img">
+                                <img src="images/StellarSuite Logo.png" alt="">
+                                <h1>StellarTravel</h1>
+                            </div>
+                            <i class="fa fa-times" id="sidebarIcon" onclick="closeSidebar"></i>
+                        </div>
+        
+                        <div class="sidebar__menu">
+                            <div class="sidebar__link active_menu_link">
+                                <i class="fa fa-home"></i>
+                                <a href="#">DASHBOARD</a>
+                            </div>
+                            <h2>Account Details</h2>
+                            <div class="sidebar__link">
+                                <i class="fa fa-user-secret"></i>
+                                <div class="sidebar__img">
+                                    <img class="dashboardImages" src="images/noun_edit_3542660.png" alt="">
+                                    <a href="#">Edit Profile</a>
+                                </div> 
+                            </div>
+        
+                            <div class="sidebar__link">
+                                <i class="fa fa-building-o"></i>
+                                <div class="sidebar__img">
+                                    <img class="dashboardImages" src="images/noun_password_3324839.png" alt="">
+                                    <a href="#">Change Password</a>
+                                </div>    
+                            </div>
+        
+                         
+                            <h2>TOUR BOOKINGS</h2>
+                            <div class="sidebar__link">
+                                <i class="fa fa-money"></i>
+                                <div class="sidebar__img">
+                                    <img class="dashboardImages" src="images/noun_booking_2548901.png" alt="">
+                                    <a href="#">My Bookings</a>
+                                </div>
+                            </div>
+        
+                            <div class="sidebar__link">
+                                <i class="fa fa-briefcase"></i>
+                                <div class="sidebar__img">
+                                    <img class="dashboardImages" src="images/noun_invoice_2819206.png" alt="">
+                                    <a href="#">Invoices</a>
+                                </div>
+                            </div>
+        
+                            <div class="sidebar__link">
+                                <i class="fa fa-power-off"></i>
+                                <div class="sidebar__img">
+                                    <img class="dashboardImages" src="images/noun_sign out_1583989.png" alt="">
+                                     <a href="#">Log out</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+            
+           
+        </div>
+    </body>
+</html>
